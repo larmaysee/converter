@@ -1,0 +1,11 @@
+{
+    "dest": "release-builds/",
+    "icon": "public/icons/png/icon.png",
+    "maintainer": "uni_zg_converter.larmaysee.converter <uni_zg_converter.larmaysee.larmaysee.git@gmail.com>",
+    "categories": [
+        "Utility"
+    ],
+    "lintianOverrides": [
+        "changelog-file-missing-in-native-package"
+    ]
+}

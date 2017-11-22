@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UNI ZG Converter</title>
+    <link rel="stylesheet" type="text/css" href="../public/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/style.css">
+</head>
+<body>
+    <div class="flex">
+        <div class="sidebar" id="sidebar-part">
+            <div class="flex-sidebar">
+                <div class="logo">
+                    <img src="../public/icons/png/icon.png" alt="">
+                </div>
+                <ul>
+                    <li><a href="convert.html">Converter (ZG <i class="fa fa-arrows-h"></i> UNI)</a></li>
+                    <li><a href="about.html">About Converter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="nav">
+                <a href="#" class="menu-bars"><i class="fa fa-bars"></i></a>
+                <div class="option">
+                    <div class="action" onclick="closeWindow();">&#x02A2F;</div>
+                    <div class="action" onclick="maximize();">&#x1f5d6;</div>
+                    <div class="action" onclick="minimize();">&#x1f5d5;</div>
+                </div>
+            </div>
+            <div class="content-flex">
+                <div class="first">
+                    <textarea class="form-control" id="textarea1" placeholder="မြန်မာစာသည်တို့စာ"></textarea>
+                </div>
+                <div class="second">
+                    <textarea class="form-control" id="textarea2" placeholder="ျမန္မာစာသည္တို႔စာ"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../public/js/jquery-1.10.1.min.js"></script>
+    <script src="../public/js/style.js"></script>
+    <script src="../converter.js"></script>
+</body>
+</html>

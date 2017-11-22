@@ -1,0 +1,14 @@
+
+@font-face {
+  font-family: 'Myanmar3';
+  src: url('Myanmar3.eot?#iefix') format('embedded-opentype'),  url('Myanmar3.woff') format('woff'), url('Myanmar3.ttf')  format('truetype'), url('Myanmar3.svg#Myanmar3') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myanmar3';
+  src: url('/css/webfont/Myanmar3.eot?#iefix') format('embedded-opentype'),  url('/css/webfont/Myanmar3.woff') format('woff'), url('/css/webfont/Myanmar3.ttf')  format('truetype'), url('/css/webfont/Myanmar3.svg#Myanmar3') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

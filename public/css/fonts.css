@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'zg';
+    src: url('../zawgyi/Zawgyi-One.eot?#iefix') format('embedded-opentype'), url('../zawgyi/Zawgyi-One.woff') format('woff'), url('../zawgyi/Zawgyi-One.ttf')  format('truetype'), url('../zawgyi/Zawgyi-One.svg#Zawgyi-One') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mm';
+    src: url('../mm/Myanmar3.eot?#iefix') format('embedded-opentype'), url('../mm/Myanmar3.woff') format('woff'), url('../mm/Myanmar3.ttf')  format('truetype'), url('../mm/Myanmar3.svg#Myanmar3') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

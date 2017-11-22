@@ -1,0 +1,14 @@
+{
+    "color-sheme": {
+        "side-nav-bg": {
+            "gray": "#212121",
+        },
+        "content-bg": "#313131",
+        "side-nav-color": {
+            "blug-gray": "#78909c",
+        },
+        "content-color": {
+            "blug-gray": "#78909c"
+        }
+    }
+}

@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.zg {
+    font-family: 'zg';
+}
+
+.mm {
+    font-family: 'mm';
+}
+
+body {
+    background-color: #212221;
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    height: 100vh;
+    overflow: hidden;
+    border: 1px solid #77909c;
+    border-radius: 1px;
+}
+
+.flex .sidebar {
+    background-color: #212121;
+    box-shadow: 2px -2px 20px rgba(0, 0, 0, 0.5);
+    flex-basis: 300px;
+    z-index: 9999;
+    display: block;
+}
+
+.flex .sidebar .flex-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 300px;
+}
+
+.logo {
+    align-items: flex-start;
+    align-self: flex-start;
+    text-align: center;
+    height: 30vh;
+}
+
+.logo img {
+    width: 60%;
+}
+
+.flex .sidebar ul li {
+    line-height: 30px;
+    padding: 10px 15px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.flex .sidebar ul li a {
+    color: #78909c;
+    display: inherit;
+    font-size: 12px;
+    font-weight: 400;
+    outline: none;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.flex .sidebar ul li a:hover {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.flex .content {
+    background-color: #d9d9d9;
+    flex-grow: 1;
+}
+
+.flex .content .nav {
+    background-color: #212121;
+    padding: 15px 15px;
+    color: #777;
+    height: 6.8vh;
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.5);    /*z-index: 9999999;*/
+    position: relative;
+    -webkit-app-region: drag;
+    display: flex;
+    flex-direction: column;
+}
+
+.row-direction > div {
+    height: 91vh !important;
+}
+
+@media screen and (max-height:700px) {
+    .flex .content .nav {
+        height: 8.8vh;
+    }
+
+    /*.flex .content .content-flex > div {
+        height: 45vh !important;
+    }*/
+}
+
+.option {
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: flex-end;
+    align-items: center;
+}
+
+.option .action {
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0px 5px;
+    -webkit-app-region: no-drag;
+    color: #77909c;
+}
+
+.option .action:hover {
+    color: #d9d9d9;
+}
+
+.flex .content .nav .menu-bars {
+    color: #78909c;
+    font-weight: bold;
+    -webkit-app-region: no-drag;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+
+.flex .content .content-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    /*height: 100vh;*/
+}
+
+.flex .content .content-flex > div {
+    flex: 1;
+    flex-grow: 1;
+    height: 46vh;
+    position: relative;
+}
+
+.flex .content .first {
+    border-bottom: 5px solid #d9d9d9;
+    border-left: 10px solid #d9d9d9;
+    border-top: 10px solid #d9d9d9;
+    border-right: 10px solid #d9d9d9;
+}
+
+.flex .content .second {
+    border-left: 10px solid #d9d9d9;
+    border-top: 5px solid #d9d9d9;
+    border-right: 10px solid #d9d9d9;
+}
+
+.flex .content textarea {
+    border: none;
+    border-radius: 0;
+    height: 100%;
+    resize: none;
+    position: relative;
+}
+
+textarea::-webkit-scrollbar {
+    width: 10px;
+}
+
+textarea::-webkit-scrollbar-track {
+    width: 12px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: #78909c;
+    outline: 1px solid #000;
+}
+
+.flex .content textarea:focus {
+    border: none;
+}
+
+/*global setting*/
+.row-direction {
+    flex-direction: row !important;
+}
+
+.row-direction .second {
+    border-top: 10px solid #d9d9d9 !important;
+}
+
+.row-direction .first, .row-direction .second {
+    border-bottom: 10px solid #d9d9d9 !important;
+}
+
+.open {
+    display: block !important;
+}
+
+.close {
+    display: none !important;
+}
+
+@media screen and (max-width:767px) {
+    .flex .sidebar {
+        display: none;
+    }
+
+    .row-direction {
+        flex-direction: column !important;
+    }
+
+    .row-direction > div {
+        height: 46vh !important;
+    }
+
+}
+
+.about {
+    padding: 10px;
+    background-color: #313131;
+    height: 93.2vh;
+}
+
+.profile {
+    margin: 30px auto 0;
+    width: 150px;
+}
+
+.profile img {
+    max-width: 100%;
+    border-radius: 2px;
+    border: 5px solid #e9e9e9;
+}
+
+.name {
+    font-size: 18px;
+    color: #7F909c;
+    letter-spacing: 2px;
+}
+
+.social li {
+    padding: 0 5px;
+}
+
+.social li a {
+    font-size: 18px;
+    color: #78909c;
+}
+
+.reference {
+    padding-left: 40px;
+}
+
+.reference strong {
+    color: #78909c;
+}
+
+.reference ol {
+    padding-left: 20px;
+    line-height: 25px;
+    color: #78909c;
+    margin-top: 20px;
+}
