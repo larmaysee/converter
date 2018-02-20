@@ -13,16 +13,19 @@ First you have to install node and npm.If not install got to https://nodejs.org 
 1. finally run `npm run create-debian-installer`
 
 
-#### Debian Installer
+# Debian Installer
 If you want to download directory debian package.You can download [here](http://larmaysee.com/converter/converter_1.1.1_amd64.deb).
 
-####credit
+# Window Installer 
+Download [here](http://larmaysee.com/converter/converter.exe).
+
+# credit
 1. Electron JS ( [www.electron.atom.io](https://electron.atom.io/) )
 2. Node JS ( [www.nodejs.org](https://nodejs.org/en/) )
 3. Rabbit Converter ( [www.rabbit-converter.org](http://www.rabbit-converter.org/Rabbit/) )
 4. Knayi-Myscript ([Knayi Myscript](https://www.npmjs.com/package/knayi-myscript))
 
 
-###License
+# License
 [MIT LICENSE](https://g.co/kgs/cvPzhD)
 
