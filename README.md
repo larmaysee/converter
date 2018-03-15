@@ -23,7 +23,6 @@ If you want to download  directly  debian installer.You can download [here](http
 If you want to download directly window installer .You can download [here](http://larmaysee.com/converter/converter.ext);
 
 #### Screenshot
-
 ![alt text](screenshots/old.png "Version 1.1.0")
 
 ![alt text](screenshots/splash.png "Version 1.2.0 splash screen")
