@@ -15,12 +15,12 @@ function getInstallerConfig() {
     const outPath = path.join(rootPath, 'release-builds');
 
     return Promise.resolve({
-        appDirectory: path.join(outPath, 'mmconverter-win32-ia32/'),
+        appDirectory: path.join(outPath, 'converter-win32-ia32/'),
         authors: 'Lar May See',
         noMsi: true,
         outputDirectory: path.join(outPath, 'windows-installer'),
-        exe: 'mmconverter.exe',
-        setupExe: 'mmconverterAppInstaller.exe',
+        exe: 'converter.exe',
+        setupExe: 'converter.exe',
         setupIcon: path.join(rootPath, 'public', 'icons', 'win', 'icon.ico')
     });
 }
