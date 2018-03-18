@@ -25,8 +25,13 @@ If you want to download directly window installer .You can download [here](http:
 #### Screenshot
 ![alt text](screenshots/old.png "Version 1.1.0")
 
+    **Window
 ![alt text](screenshots/splash.png "Version 1.2.0 splash screen")
 ![alt text](screenshots/main.png "Version 1.2.0 Main Screen")
+
+    **Ubuntu
+![alt text](screenshots/linux_splash.png "Version 1.2.0 splash screen")
+![alt text](screenshots/linux_main.png "Version 1.2.0 Main Screen")
 
 
 #### Credit
