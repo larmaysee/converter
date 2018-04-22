@@ -20,7 +20,7 @@ First you have to install node and npm.If not install got to https://nodejs.org 
 If you want to download  directly  debian installer.You can download [here](http://larmaysee.com/converter/converter_1.1.1_amd64.deb).
 
 ### Window installer
-If you want to download directly window installer .You can download [here](http://larmaysee.com/converter/converter.exe);
+If you want to download directly window installer .You can download [here](http://larmaysee.com/converter/converter_1.1.1.exe);
 
 #### Screenshot
 ![alt text](screenshots/old.png "Version 1.1.0")
