@@ -15,13 +15,6 @@ First you have to install node and npm.If not install got to https://nodejs.org 
 1. and then run `npm run package-linux`
 1. finally run `npm run create-debian-installer`
 
-
-### Debian installer
-If you want to download  directly  debian installer.You can download [here](http://larmaysee.com/converter/converter_1.1.1_amd64.deb).
-
-### Window installer
-If you want to download directly window installer .You can download [here](http://larmaysee.com/converter/converter_1.1.1.exe);
-
 #### Screenshot
 ![alt text](screenshots/old.png "Version 1.1.0")
 
